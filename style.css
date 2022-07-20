@@ -1,0 +1,40 @@
+body {
+
+    font-family: 'Outfit', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+h1 {
+
+    color: #fff;
+    
+}
+
+header .container {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.containerMain {
+
+    height: 80vh;   
+    background-color: aquamarine;
+    background-image: url(img/PC\ GAMER.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.hero {
+
+    text-align: center;
+
+}
+
+
+
