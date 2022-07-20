@@ -85,6 +85,11 @@ header .container {
 
 }
 
+main {
+
+    height: 3000px;
+}
+
 .hero {
 
     text-align: center;
@@ -95,7 +100,7 @@ header .container {
 
 .about {
 
-    height: 120vh;
+    height: 135vh;
     position: relative;
 
 }
@@ -139,5 +144,14 @@ header .container {
 
 }
 
+#productos {
+
+    
+
+
+
+
+
+}
 
 
