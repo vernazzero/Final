@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     font-size: 25px;
+    scroll-behavior: smooth;
 
 }
 
@@ -14,9 +15,20 @@ h1 {
     
 }
 
+h2 {
+
+    color: rgb(255, 255, 255);
+}
+
 h3 {
 
     text-align: center;
+}
+
+ul {
+
+    list-style: none;
+
 }
 
 a {
@@ -24,6 +36,27 @@ a {
     color: rgb(255, 255, 255);
     text-decoration: none;
     
+}
+
+p {
+
+    padding: 30px;
+    line-height: 1.6;
+
+}
+
+span {
+
+    color: rgb(132, 46, 212);
+    font-weight: bold;
+
+}
+
+
+.precio {
+
+    padding: 0;
+
 }
 
 .btn.Carrito {
@@ -52,25 +85,6 @@ a {
 .btn:hover {
 
     background-color: rgb(132, 46, 212);
-
-}
-
-p {
-
-    padding: 30px;
-
-}
-
-.precio {
-
-    padding: 0;
-
-}
-
-span {
-
-    color: rgb(132, 46, 212);
-    font-weight: bold;
 
 }
 
@@ -169,6 +183,40 @@ header .container {
 
     height: 180px;
     width: 180px;
+
+}
+
+.caracteristicas {
+
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.fin {
+
+    background-color: rgba(0,0,0,0.9);
+    height: 50vh;
+    text-align: center;
+    padding: 110px;
+
+}
+
+.footer {
+
+    height: 15vh;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+
+}
+
+.redes {
+
+    color: rgb(132, 46, 212);
+    padding: 0px 20px;
 
 }
 
