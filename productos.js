@@ -22,9 +22,22 @@
 
     card.classList.add("card");
 
-    card.innerHTML=
+    card.innerHTML= `
 
+    <img src="${producto.img}" class="img" alt="${producto.name}" logo>
 
+    <div>
 
+        <h5>${producto.name}</h5>
+
+        <p class="precio">$ ${producto.precio}</p>
+
+        <a href="#" class="btn Carrito">Agregar al carrito</a>
+
+    </div>
+    
+    `;
+
+    containerProductos.append(card);
 
  })

@@ -23,26 +23,22 @@ a {
 
     color: rgb(255, 255, 255);
     text-decoration: none;
+    
+}
+
+.btn.Carrito {
+
+    padding: 1px ;
+    width: 120px;
+    font-size: 20px;
+
 
 }
 
-p {
+.btn {
 
-    padding: 50px;
-
-}
-
-span {
-
-    color: rgb(132, 46, 212);
-    font-weight: bold;
-
-}
-
-button {
-
-    height: 40px;
-    width: 100px;
+    display: inline-block;
+    padding: 10px;
     border-radius: 40px;
     border: solid 1px rgba(0,0,0,0.7);
     background-color: rgb(111, 9, 206);
@@ -53,10 +49,28 @@ button {
 
 }
 
-button:hover {
+.btn:hover {
 
     background-color: rgb(132, 46, 212);
 
+}
+
+p {
+
+    padding: 30px;
+
+}
+
+.precio {
+
+    padding: 0;
+
+}
+
+span {
+
+    color: rgb(132, 46, 212);
+    font-weight: bold;
 
 }
 
@@ -83,11 +97,6 @@ header .container {
     background-size: cover;
     z-index: -100;
 
-}
-
-main {
-
-    height: 3000px;
 }
 
 .hero {
@@ -144,13 +153,22 @@ main {
 
 }
 
-#productos {
+.card {
 
-    
+    text-align: center;
+    margin-left: 65px;
+    height: 380px;
+    width: 200px;
+    margin-top: 40px;
+    padding: 50px;
+    background-color: rgb(250, 245, 231);
+    border-bottom: solid 1px rgb(202, 196, 177);
+}
 
+.img {
 
-
-
+    height: 180px;
+    width: 180px;
 
 }
 
