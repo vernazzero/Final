@@ -100,7 +100,7 @@ header .container {
 .imgContainer {
 
     height: 600px;
-    width: 425px;
+    min-width: 100%;
     position: absolute;
     background-image: linear-gradient(
         0deg,
@@ -191,7 +191,7 @@ header .container {
 .containerImg3 {
 
     height: 600px;
-    width: 425px;
+    min-width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-image: linear-gradient(
@@ -273,7 +273,6 @@ header .container {
     .imgContainer {
 
         height: 750px;
-        width: 768px;
         
     }
 
@@ -332,12 +331,6 @@ header .container {
 
         margin-left: 410px;
          
-     }
-
-     .containerImg3 {
-
-        width: 768px;
-
      }
 
     .containerImg4 {
@@ -399,8 +392,6 @@ header .container {
 
         height: 850px;
 
-        width: 1024px;
-
     }
 
     .mostrarMenu {
@@ -430,7 +421,6 @@ header .container {
     .containerImg3 {
 
         height: 750px;
-        width: 1024px;
 
     }
 
@@ -472,7 +462,6 @@ header .container {
 
     .imgContainer {
 
-        width: 1440px;
         height: 1140px;
 
     }
@@ -515,7 +504,7 @@ header .container {
 
     .about {
 
-        height: 145vh;
+        height: 190vh;
 
     }
 
@@ -540,7 +529,6 @@ header .container {
     .containerImg3 {
 
         height: 1100px;
-        width: 1440px;
 
     }
 
