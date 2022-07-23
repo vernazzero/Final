@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,14 +8,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="img/Icono.png" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="login.css">
     <title>Gaming City</title>
-    
 </head>
 
 <body>
-
-    <div class="imgContainer"></div>
 
     <header>
 
@@ -31,7 +26,7 @@
 
                 <div class="cartUser">
 
-                    <a href="login.html" id="user"><i class="fa-solid fa-user"></i></a>
+                    <a href="" id="user"><i class="fa-solid fa-user"></i></a>
     
                     <a href="" id="cart"><i class="fa-solid fa-cart-shopping"></i></a>
 
@@ -47,9 +42,9 @@
         
         <ul class="mostrarMenu">
 
-        <li class="lista"><a href="#about" class="colorMenu">Acerca de nosotros</a></li>
-        <li class="lista"><a href="#productos" class="colorMenu">Productos</a></li>
-        <li class="lista"><a href="#contacto" class="colorMenu">Contactactanos</a></li>
+        <li class="lista"><a href="index.html" class="colorMenu">Acerca de nosotros</a></li>
+        <li class="lista"><a href="index.html" class="colorMenu">Productos</a></li>
+        <li class="lista"><a href="index.html" class="colorMenu">Contactactanos</a></li>
 
     </ul>
 
@@ -57,55 +52,30 @@
 
     <main>
 
-        <div class="hero">
+        <div class="iniciarSesion">
 
-            <h2>Los mejores componentes</h2>
+            <h2>Ingresar</h2>
 
-            <a href="#productos" class="btn">Productos</a>
+            <p>¿No tenes una cuenta? Registrate.</p>
 
-        </div>
+            <form>
 
-        <div class="about" id="about">
+                <input type="email" class="formulario" placeholder="Email" required> <br>
 
-            <div class="containerImg"></div>
+                <input type="password" class="formulario" placeholder="Contraseña" required>
 
-            <div class="containerImg2"></div>
+                <div class="btnA">
 
-            <h3>Sobre nosotros</h3>
+                    <input type="button" class="btn" value="Ingresar">
 
-            <div class="containerImg3"></div>
+                    <a href="index.html">Volver atras</a>
 
-            <p>Somos <span>Gaming City</span>, una pagina dedicada al mundo gamer, especializada en la venta de hardware. Nuestros clientes nos buscan porque tenemos los mejores componentes que puedas encontrar.</p>
+                </div>
 
-        </div>
-
-        <h3>Nuestros productos</h3>
-
-        <div id="productos"></div>
-
-        <div class="caracteristicas">
-
-            <div class="containerImg4"></div>
-
-            <ul>
-
-                <li>✔️Flexibilidad horaria</li>
-                <li>✔️Atencion al cliente</li>
-                <li>✔️Productos originales</li>
-                <li>✔️Envios gratis</li>
-                <li>✔️Garantias</li>
-
-            </ul>
+            </form>
 
         </div>
 
-        <div class="fin">
-
-            <h2>No dudes en hacer tu consulta!</h2>
-            <a href="login.html" class="btn">Ingresar</a>
-
-        </div>
-        
     </main>
 
     <footer>
@@ -120,11 +90,10 @@
         </div>
 
     </footer>
-    
-    <script src="productos.js"></script>
+
     <script src="main.js"></script>
     <script src="https://kit.fontawesome.com/79e18b4497.js" crossorigin="anonymous"></script>
-
+    
 </body>
 
 </html>

@@ -251,10 +251,11 @@ header .container {
 
 .footer {
 
-    height: 15vh;
+    height: 150px;
     text-align: center;
     padding: 20px;
     margin-top: 50px;
+    background-color: rgb(253, 213, 249);
 
 }
 
@@ -364,6 +365,12 @@ header .container {
 
      }
 
+     .footer {
+
+        height: 180px;
+
+     }
+
     .redes {
 
         font-size: 25px;
@@ -452,6 +459,11 @@ header .container {
 
     }
 
+    .footer {
+
+        height: 180px;
+    }
+
 }
 
 /* MEDIA 1440px */
@@ -461,7 +473,7 @@ header .container {
     .imgContainer {
 
         width: 1440px;
-        height: 1120px;
+        height: 1140px;
 
     }
 
@@ -555,6 +567,12 @@ header .container {
     .redes {
 
         font-size: 40px;
+
+    }
+
+    .footer {
+
+        height: 200px;;
     }
 
 }
