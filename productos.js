@@ -44,7 +44,7 @@ let carrito = [];
 
     containerProductos.append(card);
 
-    const boton = document.querySelector(".btn.Carrito");
+    const boton = document.getElementById(`agregar${producto.id}`);
 
     boton.addEventListener("click", () => {
 
