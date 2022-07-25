@@ -11,8 +11,9 @@ const stockProductos = [
    {id: 9, name: "Memoria RAM Vengeance RGB 16GB", precio: "20000", img: "https://http2.mlstatic.com/D_NQ_NP_2X_684969-MLA47962858193_102021-F.webp"},
    {id: 10, name: "RTX 3060 8GB MSI", precio: "135000", img: "https://http2.mlstatic.com/D_NQ_NP_2X_862662-MLA45806911924_052021-F.webp"},
    {id: 11, name: "RX 6500XT 4GB GIGABYTE", precio: "83000", img: "https://http2.mlstatic.com/D_NQ_NP_2X_705926-MLA49520014918_032022-F.webp"},
-   {id: 12, name: "Gabinete Gamer Thermaltake S300", precio: "19900", img: "https://http2.mlstatic.com/D_NQ_NP_2X_811129-MLA44128434268_112020-F.webp"},
-   {id: 13, name: "Gabinete Gamer Sentey X10", precio: "7000", img: "https://http2.mlstatic.com/D_NQ_NP_2X_679124-MLA31652578709_082019-F.webp"},
+   {id: 12, name: "Fuente Corsair RMx 850W", precio: "33500", img: "https://http2.mlstatic.com/D_NQ_NP_2X_639976-MLA45772593351_042021-F.webp"},
+   {id: 13, name: "Gabinete Gamer Thermaltake S300", precio: "19900", img: "https://http2.mlstatic.com/D_NQ_NP_2X_811129-MLA44128434268_112020-F.webp"},
+   {id: 14, name: "Gabinete Gamer Sentey X10", precio: "7000", img: "https://http2.mlstatic.com/D_NQ_NP_2X_679124-MLA31652578709_082019-F.webp"},
    
 ]
  

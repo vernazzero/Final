@@ -1,10 +1,15 @@
+html {
+
+    scroll-behavior: smooth;
+
+}
+
 body {
 
     font-family: 'Outfit', sans-serif;
     margin: 0;
     padding: 0;
     font-size: 25px;
-    scroll-behavior: smooth;
     box-sizing: border-box;
 
 }
@@ -20,10 +25,18 @@ h2 {
 
     color: rgb(255, 226, 226);
     font-weight: bold;
+    
 }
 
 h3 {
 
+    text-align: center;
+    
+}
+
+h5 {
+
+    margin-top: -1px;
     text-align: center;
     
 }
@@ -121,6 +134,19 @@ header .container {
     
 }
 
+.contenedor2 {
+
+    position: absolute;
+    left: 175px;
+    height: 350px;
+    width: 250px;
+    transform: translateY(-150%);
+    transition: transform 0.6s;
+    background-color: rgb(253, 213, 249);
+    border-radius: 15px;
+
+}
+
 .mostrarMenu {
 
     margin-top: 0;
@@ -145,6 +171,12 @@ header .container {
 }
 
 .menuShow {
+
+    transform: translateY(0);
+
+}
+
+.menuShow2 {
 
     transform: translateX(0);
 
