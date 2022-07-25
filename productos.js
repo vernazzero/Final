@@ -8,7 +8,7 @@ const stockProductos = [
    {id: 6, name: "Intel Core i7-10700F", precio: "59000", img: "https://http2.mlstatic.com/D_NQ_NP_2X_767562-MLA44771865278_022021-F.webp"},
    {id: 7, name: "Motherboard Gigabyte Ga-b450m", precio: "20000", img: "https://http2.mlstatic.com/D_NQ_NP_2X_906630-MLA50679362514_072022-F.webp"},
    {id: 8, name: "Motherboard Gigabyte H410m", precio: "15000", img: "https://http2.mlstatic.com/D_NQ_NP_2X_607835-MLA48120448959_112021-F.webp"},
-   {id: 9, name: "Memoria RAM Vengeance RGB 16GB", precio: "20000", img: "https://http2.mlstatic.com/D_NQ_NP_2X_684969-MLA47962858193_102021-F.webp"},
+   {id: 9, name: "Memoria RAM Vengeance 16GB", precio: "20000", img: "https://http2.mlstatic.com/D_NQ_NP_2X_684969-MLA47962858193_102021-F.webp"},
    {id: 10, name: "RTX 3060 8GB MSI", precio: "135000", img: "https://http2.mlstatic.com/D_NQ_NP_2X_862662-MLA45806911924_052021-F.webp"},
    {id: 11, name: "RX 6500XT 4GB GIGABYTE", precio: "83000", img: "https://http2.mlstatic.com/D_NQ_NP_2X_705926-MLA49520014918_032022-F.webp"},
    {id: 12, name: "Fuente Corsair RMx 850W", precio: "33500", img: "https://http2.mlstatic.com/D_NQ_NP_2X_639976-MLA45772593351_042021-F.webp"},
@@ -19,9 +19,21 @@ const stockProductos = [
  
 const containerProductos = document.getElementById("productos");
 
-const contenedorCarrito = document.getElementById("contenedorCarrito");
+const contenedorCarrito = document.querySelector(".contenedorCarrito");
+
+const botonVaciar = document.getElementById("vaciarCarrito");
+
+let precioFinal = document.getElementById("precioFinal");
 
 let carrito = [];
+
+botonVaciar.addEventListener("click", () => {
+
+  carrito.length = 0;
+
+  actualizarCarrito();
+
+})
 
  stockProductos.forEach(producto => {
 
@@ -63,4 +75,46 @@ let carrito = [];
 
    carrito.push(item);
 
+   console.log(carrito)
+
+   actualizarCarrito()
+
  }
+
+ const eliminarDelCarrito = (prodId) => {
+
+  const item = carrito.find((prod) => prod.id === prodId);
+
+  const indice = carrito.indexOf(item);
+
+  carrito.splice(indice, 1);
+
+  actualizarCarrito();
+
+ }
+
+ const actualizarCarrito = () => {
+
+  contenedorCarrito.innerHTML = "";
+
+  carrito.forEach((prod) => {
+
+    const div = document.createElement("div");
+
+    div.classList.add("productoEnCarrito");
+
+    div.innerHTML = `
+
+    <p class="pName">${prod.name}</p>
+    <p class="pPrecio">$${prod.precio}</p>
+    <button onclick = "eliminarDelCarrito(${prod.id})" class = "btn-eliminar"><i class="fa-solid fa-xmark"></i></button>
+    
+    `
+
+    contenedorCarrito.append(div);
+
+  })
+
+  precioFinal.innerText = carrito.reduce((acc, prod) => acc + prod.precio, 0);
+
+}
