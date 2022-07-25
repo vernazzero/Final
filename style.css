@@ -145,7 +145,6 @@ header .container {
     background-color: rgb(253, 213, 249);
     border-radius: 15px;
 
-
 }
 
 .productoEnCarrito {
@@ -353,6 +352,20 @@ header .container {
         
     }
 
+    .carrito {
+
+        left: 415px;
+        width: 350px;
+    
+    }
+
+    .productoEnCarrito {
+
+        margin-left: 20px;
+
+    }
+
+
     p {
 
         padding: 40px 150px;
@@ -446,6 +459,12 @@ header .container {
 
     }
 
+    .tituloAbout {
+
+        margin-top: 580px;
+
+    }
+
     p {
 
         padding: 50px 150px;
@@ -458,6 +477,50 @@ header .container {
 
     }
 
+    .carrito {
+
+        left: 602px;
+        width: 420px;
+        height: 90vh;
+    
+    }
+
+    .productoEnCarrito {
+
+        margin-left: 20px;
+        height: 100px;
+
+    }
+
+    .precioTotal {
+
+        top: 900px;
+
+    }
+
+    .pName {
+
+        font-size: 20px;
+    
+    }
+
+    .pPrecio {
+
+        font-size: 20px;
+        
+    }
+
+    .pPrecioFinal {
+
+        font-size: 20px;
+
+    }
+
+    #vaciarCarrito {
+
+        font-size: 20px;
+    }
+
     .mostrarMenu {
 
         width: 260px;
@@ -466,7 +529,7 @@ header .container {
 
     .about {
 
-        height: 153vh;
+        height: 120vh;
 
     }
 
@@ -549,6 +612,38 @@ header .container {
 
     }
 
+    .carrito {
+
+        left: 1015px;
+        width: 420px;
+        height: 88vh;
+    
+    }
+
+    .productoEnCarrito {
+
+        height: 110px;
+
+    }
+
+    .precioTotal {
+
+        top: 1015px;
+
+    }
+
+    .pPrecioFinal {
+
+        font-size: 25px;
+
+    }
+
+    #vaciarCarrito {
+
+        font-size: 25px;
+        
+    }
+
     .mostrarMenu {
 
         width: 380px;
@@ -558,7 +653,7 @@ header .container {
 
     .about {
 
-        height: 215vh;
+        height: 145vh;
 
     }
 

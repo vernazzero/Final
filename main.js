@@ -4,7 +4,7 @@ const menu = document.querySelector(".mostrarMenu");
 
 const cart = document.getElementById("cart");
 
-const mostrarCart = document.querySelector(".carrito")
+const mostrarCart = document.querySelector(".carrito");
 
 
 icono.addEventListener("click", () => {
