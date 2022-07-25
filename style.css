@@ -38,7 +38,7 @@ h5 {
 
     margin-top: -1px;
     text-align: center;
-    
+
 }
 
 ul {
@@ -134,11 +134,11 @@ header .container {
     
 }
 
-.contenedor2 {
+.contenedorCarrito {
 
     position: absolute;
     left: 175px;
-    height: 350px;
+    height: 87vh;
     width: 250px;
     transform: translateY(-150%);
     transition: transform 0.6s;

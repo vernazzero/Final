@@ -19,6 +19,8 @@ const stockProductos = [
  
 const containerProductos = document.getElementById("productos");
 
+const contenedorCarrito = document.getElementById("contenedorCarrito");
+
 let carrito = [];
 
  stockProductos.forEach(producto => {
@@ -60,7 +62,5 @@ let carrito = [];
    const item = stockProductos.find((prod) => prod.id === prodId);
 
    carrito.push(item);
-
-   console.log(carrito)
 
  }
